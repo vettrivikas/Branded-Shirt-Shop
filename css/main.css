@@ -1,0 +1,38 @@
+.logo {
+    height: 45px;
+  }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+header{
+    background-image: linear-gradient(#00000090, #00000090), url(/back\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-item a{
+    font-weight:500;
+}
+
+.nav-item a:hover{
+    animation: tada;
+    animation-duration: 1.5s;
+
+
+}
